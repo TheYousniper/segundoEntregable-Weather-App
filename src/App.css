@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/95/cb/77/95cb77957ae7e13b8dd1741b62ddf98f.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.weatherCard{
+    margin: 0 50px;
+}
